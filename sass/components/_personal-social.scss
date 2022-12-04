@@ -1,0 +1,30 @@
+.personal__social {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  fill: #afb1b8;
+}
+.personal__social a {
+  display: block;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: transparent;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--color-blue);
+    fill: var(--color-white);
+  }
+}
+
+.personal__social li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.personal__social svg {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

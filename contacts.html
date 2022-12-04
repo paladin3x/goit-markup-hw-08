@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <header class="hat">
+      <div class="container hat__flex">
+        <nav class="hat__navi">
+          <a href="./" class="hat__logo">
+            <span class="hat__logofirst">Web</span
+            ><span class="hat__logosecond">Studio</span>
+          </a>
+          <ul class="hat__list reset">
+            <li>
+              <a href="./index.html" class="blue-line line-anim">Студія</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="blue-line line-anim"
+                >Портфоліо</a
+              >
+            </li>
+            <li>
+              <a class="link current blue-line line-anim" href="./contacts.html"
+                >Контакти</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <ul class="hat__contact reset">
+          <li>
+            <a
+              href="mailto:info@devstudio.com"
+              target="_blank"
+              rel="noopener norefferer nofollow"
+              class="mailto"
+              ><svg
+                class="icon-envelope hat__contacticon"
+                style="width: 16; height: 12"
+              >
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="tell" href="tel:+380961111111"
+              ><svg
+                class="icon-smartphone hat__contacticon"
+                style="width: 16; height: 12"
+              >
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main></main>
+
+    <footer class="section-footer">
+      <div class="container section-footer__box">
+        <div class="footer-address">
+          <a href="./" class="logofooter">
+            <span class="thirdlogo">Web</span
+            ><span class="fourthlogo">Studio</span>
+          </a>
+          <address class="footaddress">
+            <a
+              href="https://goo.gl/maps/dP5WaD3w5aMma61z8"
+              class="footaddress__maps"
+              target="_blank"
+              rel="nofollow noopener norefferer"
+              >м. Київ, пр-т Лесі Українки, 26</a
+            >
+            <a
+              href="mailto:info@devstudio.com"
+              class="cont footaddress__email"
+              rel="nofollow noopener norefferer"
+              >info@devstudio.com</a
+            >
+            <a href="tel:+380961111111" class="cont footaddress__tel"
+              >+38 096 111 11 11</a
+            >
+          </address>
+        </div>
+        <div class="connect">
+          <p class="connect__phrase">приєднуйтесь</p>
+          <ul class="icon-soc-box">
+            <li class="icon-social">
+              <a class="icon-position" href="https://www.instagram.com/">
+                <svg class="iconlink" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-social">
+              <a class="icon-position" href="https://twitter.com/?lang=uk">
+                <svg class="iconlink" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-social">
+              <a class="icon-position" href="https://www.facebook.com/">
+                <svg class="iconlink" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-social">
+              <a class="icon-position" href="https://www.linkedin.com">
+                <svg class="iconlink" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedi"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="subscription-social">
+          <strong class="footer-form-title">Підпишіться на розсилку</strong>
+          <form class="form-social">
+            <label class="label-form-social">
+              <input
+                class="input-form-social"
+                type="email"
+                name="mail"
+                placeholder="E-Mail"
+            /></label>
+            <button class="btn-submit-social" type="sumbit">
+              Підписатися
+              <svg class="form-sub-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./js/modal.js"></script>
+</html>
