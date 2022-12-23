@@ -212,9 +212,13 @@
             <li class="personal">
               <img
                 class="personal__img"
-                src="./images/img_igor.jpg"
-                alt="Фото        Ігора"
-                width="270"
+                srcset="./images/img/img@1x.jpg 450w, ./images/img/img@2x.jpg 900w, ./images/img/img@1x.jpg 354w, ./images/img/img@2x.jpg 708w, ./images/img/img@1x.jpg 270px, ./images/img/img@2x.jpg 540px"
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                loading="lazy"
+                src="./images/img/img.jpg"
+                alt="Фото1"
+                width="450"
+                height="460"
               />
               <div class="personal__card">
                 <h3>Ігор Дем'яненко</h3>
@@ -254,9 +258,13 @@
             <li class="personal">
               <img
                 class="personal__img"
-                src="./images/img_olya.jpg"
-                alt="Фото      Ольги"
-                width="270"
+                srcset="./images/img/img2@1x.jpg 450w, ./images/img/img2@2x.jpg 900w, ./images/img/img2@1x.jpg 354w, ./images/img/img2@2x.jpg 708w, ./images/img/img2@1x.jpg 270px, ./images/img/img2@2x.jpg 540px"
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                loading="lazy"
+                src="./images/img/img2.jpg"
+                alt="Фото1"
+                width="450"
+                height="460"
               />
               <div class="personal__card">
                 <h3>Ольга Рєпіна</h3>
@@ -293,13 +301,16 @@
                 </ul>
               </div>
             </li>
-
             <li class="personal">
               <img
                 class="personal__img"
-                src="./images/img_mikola.jpg"
-                alt="Фото      Миколи"
-                width="270"
+                srcset="./images/img/img3@1x.jpg 450w, ./images/img/img3@2x.jpg 900w, ./images/img/img3@1x.jpg 354w, ./images/img/img3@2x.jpg 708w, ./images/img/img3@1x.jpg 270px, ./images/img/img3@2x.jpg 540px"
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                loading="lazy"
+                src="./images/img/img3.jpg"
+                alt="Фото1"
+                width="450"
+                height="460"
               />
               <div class="personal__card">
                 <h3>Микола Тарасов</h3>
@@ -339,9 +350,13 @@
             <li class="personal">
               <img
                 class="personal__img"
-                src="./images/img_michael.jpg"
-                alt="Фото      Михайла"
-                width="270"
+                srcset="./images/img/img4@1x.jpg 450w, ./images/img/img4@2x.jpg 900w, ./images/img/img4@1x.jpg 354w, ./images/img/img4@2x.jpg 708w, ./images/img/img4@1x.jpg 270px, ./images/img/img4@2x.jpg 540px"
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                loading="lazy"
+                src="./images/img/img4.jpg"
+                alt="Фото1"
+                width="450"
+                height="460"
               />
               <div class="personal__card">
                 <h3>Михайло Єрмаков</h3>
@@ -577,7 +592,60 @@
         </form>
       </div>
     </div>
+    <div class="menu-container js-menu-container is-open" id="mobile-menu">
+      <button class="menu-toggle menu-button-close js-close-menu">
+        <svg class="icon-close" width="40" height="40">
+          <use href="./images/icons.svg#close_40px"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu menu-navigation">
+        <li class="mobile-menu-list">
+          <a href="./index.html" class="link mobile-menu-link current"
+            >Студія</a
+          >
+        </li>
+        <li class="mobile-menu-list">
+          <a href="./portfolio.html" class="link mobile-menu-link">Портфоліо</a>
+        </li>
+        <li class="mobile-menu-list">
+          <a href="./index.html" class="link mobile-menu-link">Контакти</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-menu menu-contacts">
+        <li class="mobile-menu-contacts">
+          <a href="tel:0961111111" class="link menu-tel">+38 096 111 11 11</a>
+        </li>
+        <li class="email-menu-contacts">
+          <a href="mailto:h@devstudio.com" class="link menu-email"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+
+      <ul class="mobile-menu menu-socials">
+        <li class="mobile-socials-link">
+          <a href="" class="menu-socials-link link">Instagram</a>
+        </li>
+        <li class="mobile-socials-link">
+          <a href="" class="menu-socials-link link">Twitter</a>
+        </li>
+        <li class="mobile-socials-link">
+          <a href="" class="menu-socials-link link">Facebook</a>
+        </li>
+        <li class="mobile-socials-link">
+          <a href="" class="menu-socials-link link">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
     <script src="./js/modal.js"></script>
+    <script
+      defer=""
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
