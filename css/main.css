@@ -118,6 +118,9 @@ img {
     align-items: baseline;
     margin-left: auto;
   }
+  .hat__contact li:not(:last-child) {
+    margin-bottom: 10px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .hat__contact {
@@ -131,10 +134,6 @@ img {
     font-size: 14px;
   }
 }
-.hat .hat__contact li:not(:last-child) {
-  margin-right: 50px;
-}
-
 /* Логотип */
 .hat__logo {
   display: -webkit-box;
@@ -167,7 +166,7 @@ img {
   display: flex;
   -webkit-box-align: baseline;
   -ms-flex-align: baseline;
-  align-items: baseline;
+  align-items: center;
   position: relative;
 }
 
@@ -392,16 +391,21 @@ img {
   }
 }
 .connect__phrase {
+  text-align: center;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: Left;
   vertical-align: Top;
   margin-bottom: 20px;
   color: var(--color-white);
 }
 
+@media screen and (min-width: 1368px) {
+  .connect__phrase {
+    text-align: left;
+  }
+}
 .icon-position {
   width: 44px;
   height: 44px;
@@ -1159,6 +1163,8 @@ img {
   -ms-flex-pack: center;
   justify-content: center;
   gap: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .product {
@@ -1603,7 +1609,7 @@ img {
 .menu-button-close {
   position: absolute;
   top: 10px;
-  right: 0;
+  right: 15px;
 }
 
 .menu-container.is-open .icon-close {
@@ -1668,7 +1674,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 .mobile-socials-link {
@@ -1680,6 +1686,9 @@ img {
   align-items: center;
   text-align: center;
   padding-right: 10px;
+}
+
+.mobile-socials-link:not(:last-child) {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 

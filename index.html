@@ -210,16 +210,14 @@
           <h2 class="team__phrase">Наша команда</h2>
           <ul class="reset team__list">
             <li class="personal">
-              <img
-                class="personal__img"
-                srcset="./images/img/img@1x.jpg 450w, ./images/img/img@2x.jpg 900w, ./images/img/img@1x.jpg 354w, ./images/img/img@2x.jpg 708w, ./images/img/img@1x.jpg 270px, ./images/img/img@2x.jpg 540px"
-                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-                loading="lazy"
-                src="./images/img/img.jpg"
-                alt="Фото1"
-                width="450"
-                height="460"
-              />
+              <picture>
+                <source media="(min-width: 1200px)" srcset="./images/team/img-1@desctop-1x.jpg 1x, ./images/team/img-1@desctop-2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="./images/team/img-1@tablet-1x.jpg 1x, ./images/team/img-1@tablet-2x.jpg 2x">
+                <source srcset="./images/team/img-1@mobile-1x.jpg 1x, ./images/team/img-1@mobile-2x.jpg 2x">
+                <img class="personal__img" src="./images/team/img-1@mobile-1x.jpg" alt="фото сотрудника" width="450px" height="460px" loading="lazy">
+
+              </picture>
+
               <div class="personal__card">
                 <h3>Ігор Дем'яненко</h3>
                 <p>Product Designer</p>
@@ -256,16 +254,13 @@
               </div>
             </li>
             <li class="personal">
-              <img
-                class="personal__img"
-                srcset="./images/img/img2@1x.jpg 450w, ./images/img/img2@2x.jpg 900w, ./images/img/img2@1x.jpg 354w, ./images/img/img2@2x.jpg 708w, ./images/img/img2@1x.jpg 270px, ./images/img/img2@2x.jpg 540px"
-                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-                loading="lazy"
-                src="./images/img/img2.jpg"
-                alt="Фото1"
-                width="450"
-                height="460"
-              />
+              <picture>
+                <source media="(min-width: 1200px)" srcset="./images/team/img-2@desctop-1x.jpg 1x, ./images/team/img-2@desctop-2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="./images/team/img-2@tablet-1x.jpg 1x, ./images/team/img-2@tablet-2x.jpg 2x">
+                <source srcset="./images/team/img-2@mobile-1x.jpg 1x, ./images/team/img-2@mobile-2x.jpg 2x">
+
+                <img src="./images/team/img-2@mobile-1x.jpg" alt="фото сотрудника" width="450px" height="460px" loading="lazy">
+              </picture>
               <div class="personal__card">
                 <h3>Ольга Рєпіна</h3>
                 <p>Frontend Developer</p>
@@ -302,16 +297,13 @@
               </div>
             </li>
             <li class="personal">
-              <img
-                class="personal__img"
-                srcset="./images/img/img3@1x.jpg 450w, ./images/img/img3@2x.jpg 900w, ./images/img/img3@1x.jpg 354w, ./images/img/img3@2x.jpg 708w, ./images/img/img3@1x.jpg 270px, ./images/img/img3@2x.jpg 540px"
-                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-                loading="lazy"
-                src="./images/img/img3.jpg"
-                alt="Фото1"
-                width="450"
-                height="460"
-              />
+              <picture>
+                <source media="(min-width: 1200px)" srcset="./images/team/img-3@desctop-1x.jpg 1x, ./images/team/img-3@desctop-2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="./images/team/img-3@tablet-1x.jpg 1x, ./images/team/img-3@tablet-2x.jpg 2x">
+                <source srcset="./images/team/img-3@mobile-1x.jpg 1x, ./images/team/img-3@mobile-2x.jpg 2x">
+
+                <img src="./images/team/img-3@mobile-1x.jpg" alt="фото сотрудника" width="450px" height="460px" loading="lazy">
+              </picture>
               <div class="personal__card">
                 <h3>Микола Тарасов</h3>
                 <p>Marketing</p>
@@ -348,16 +340,13 @@
               </div>
             </li>
             <li class="personal">
-              <img
-                class="personal__img"
-                srcset="./images/img/img4@1x.jpg 450w, ./images/img/img4@2x.jpg 900w, ./images/img/img4@1x.jpg 354w, ./images/img/img4@2x.jpg 708w, ./images/img/img4@1x.jpg 270px, ./images/img/img4@2x.jpg 540px"
-                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-                loading="lazy"
-                src="./images/img/img4.jpg"
-                alt="Фото1"
-                width="450"
-                height="460"
-              />
+              <picture>
+                <source media="(min-width: 1200px)" srcset="./images/team/img-4@desctop-1x.jpg 1x, ./images/team/img-4@desctop-2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="./images/team/img-4@tablet-1x.jpg 1x, ./images/team/img-4@tablet-2x.jpg 2x">
+                <source srcset="./images/team/img-4@mobile-1x.jpg 1x, ./images/team/img-4@mobile-2x.jpg 2x">
+
+                <img src="./images/team/img-4@mobile-1x.jpg" alt="фото сотрудника" width="450px" height="460px" loading="lazy">
+              </picture>
               <div class="personal__card">
                 <h3>Михайло Єрмаков</h3>
                 <p>UI Designer</p>
@@ -534,7 +523,7 @@
           </svg>
         </button>
         <strong class="modal-form-title"
-          >Залиште свої дані, ми вам передзвонимо</strong
+          >Залиште свої дані, ми вам <br> передзвонимо</strong
         >
         <form class="modal-form">
           <label class="modal-form-label"
@@ -592,7 +581,7 @@
         </form>
       </div>
     </div>
-    <div class="menu-container js-menu-container is-open" id="mobile-menu">
+    <div class="menu-container js-menu-container" id="mobile-menu">
       <button class="menu-toggle menu-button-close js-close-menu">
         <svg class="icon-close" width="40" height="40">
           <use href="./images/icons.svg#close_40px"></use>

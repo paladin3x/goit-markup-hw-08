@@ -9,18 +9,21 @@
 }
 
 .hat__contact a {
+  
   text-decoration: none;
   font-weight: 500;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.02em;
   gap: 30px;
-  color: var(--general-gray-text);
+  color: var(--general-gray-text); 
 }
+
 @media screen and (max-width: 767px) {
   .hat__contact {
     display: none;
   }
+
 }
 @media screen and (min-width: 768px) {
   .hat__contact {
@@ -29,6 +32,9 @@
     -ms-flex-align: baseline;
     align-items: baseline;
     margin-left: auto;
+  }
+  .hat__contact li:not(:last-child) {
+    margin-bottom: 10px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -42,10 +48,6 @@
     margin-left: auto;
     font-size: 14px;
   }
-}
-
-.hat .hat__contact li:not(:last-child) {
-  margin-right: 50px;
 }
 
 /* Логотип */
@@ -78,7 +80,7 @@
   display: flex;
   -webkit-box-align: baseline;
   -ms-flex-align: baseline;
-  align-items: baseline;
+  align-items: center;
   position: relative;
 }
 .hat__list {
