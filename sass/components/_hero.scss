@@ -63,9 +63,9 @@
         from(var(--layout-bcg)),
         to(var(--layout-bcg))
       ),
-      url(../images/hero/Header_img_m@1x.jpg);
+      url(../images/hero/Header_img_m@2x.jpg);
     background-image: linear-gradient((var(--layout-bcg)), (var(--layout-bcg))),
-      url(../images/hero/Header_img_m@1x.jpg);
+      url(../images/hero/Header_img_m@2x.jpg);
   }
 }
 @media screen and (min-width: 769px) {
@@ -94,12 +94,12 @@
         from(var(--layout-bcg)),
         to(var(--layout-bcg))
       ),
-      url(../images/hero/Img_l@1x.jpg);
+      url(../images/hero/Img_l@2x.jpg);
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/hero/Img_l@1x.jpg);
+      url(../images/hero/Img_l@2x.jpg);
   }
 }
 @media screen and (min-width: 768px) {

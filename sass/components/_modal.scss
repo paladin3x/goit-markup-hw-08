@@ -2,8 +2,6 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 528px;
-  height: 581px;
   padding: 40px;
   background-color: var(--color-white);
   border-radius: 4px;
@@ -15,6 +13,16 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
     -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (min-width:480px) {
+  .modal {
+  width: 450px;
+  min-height: 609px;
+}}
+@media screen and (min-width:1200px) {
+  .modal {
+  width: 528px;
+  min-height: 581px;
+}}
 
 .modal-form {
   display: -webkit-box;
@@ -30,6 +38,7 @@
   letter-spacing: 0.01em;
   color: rgb(117, 117, 117);
 }
+
 
 .modal-form-title {
   display: block;

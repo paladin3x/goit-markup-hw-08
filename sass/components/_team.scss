@@ -27,7 +27,7 @@
 
 .team__phrase {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 36px;
   font-weight: 700;
   font-size: 28px;
   line-height: 1.17;
@@ -35,7 +35,7 @@
   color: var(--second-black-text);
 }
 @media screen and (min-width: 1200px) {
-  .team-phrase {
+  .team__phrase {
     margin-bottom: 50px;
     font-size: 36px;
   }
