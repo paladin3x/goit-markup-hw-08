@@ -207,6 +207,10 @@
   -ms-flex-pack: center;
   justify-content: center;
 }
+@media screen and (min-width:786px) and (max-width:1199px) {
+  .subscription-social {
+  margin-top:60px;
+}}
 @media screen and (min-width: 1200px) {
   .subscription-social {
     display: block;

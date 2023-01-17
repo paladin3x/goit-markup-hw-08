@@ -463,6 +463,11 @@ img {
   justify-content: center;
 }
 
+@media screen and (min-width: 786px) and (max-width: 1199px) {
+  .subscription-social {
+    margin-top: 60px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .subscription-social {
     display: block;
@@ -545,24 +550,6 @@ img {
   cursor: pointer;
 }
 
-.subscription-social {
-  text-align: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-@media screen and (min-width: 1200px) {
-  .subscription-social {
-    display: block;
-    width: 570px;
-    margin-left: auto;
-    text-align: start;
-  }
-}
 .footer-form-title {
   margin-bottom: 20px;
   font-weight: 700;
